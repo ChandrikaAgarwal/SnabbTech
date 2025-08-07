@@ -207,9 +207,8 @@ nav{
             flex-direction: column;
             /* padding-left: 20px;
             gap: 20px; */
-            align-items: center;
-            justify-content: center;
-            padding: 20px 30px 0 0;
+           
+            padding: 20px;
            
         }
     .outer-card{
@@ -225,7 +224,13 @@ nav{
     .review-box{
         padding: 20px;
     }
-    
+    .snabBusiness-text{
+        font-size: 20px;
+        line-height: 1.3rem;
+        padding: 10px 20px;
+        text-align: left;
+        column-width: 5;
+    }
 }
 @media (max-width: 768px) {
     .slide-in-text {
@@ -258,11 +263,31 @@ nav{
     }
     .services {
         flex-direction: column;
-            padding-left: 20px;
-            padding-right: 20px;
+            /* padding-left: 20px; */
+            /* padding-right: 20px; */
+            margin-right: 45px;
             align-items: center;
+            justify-content: center;
             gap: 20px;
     }
+        .outer-card {
+            max-width: 350px;
+            height: 400px;
+            padding: 40px;
+    
+        }
+        .elementor-icon-list-items{
+            padding:10px ;
+            align-items: flex-start;
+
+        }
+        .snabBusiness-text {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+            line-height: 1.3rem;
+            padding: 10px 20px;
+            text-align: left;
+        }
         
 }
 
@@ -422,7 +447,6 @@ justify-content: flex-start;
     font-size: 20px;
     line-height: 1.5;
     margin: 0;
-    /* ADD THESE FOR TEXT LIMITING */
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -436,12 +460,25 @@ justify-content: flex-start;
     list-style-type: none;
 }
 .elementor-icon-list-item {
-font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
-font-size: 20px;
-font-weight: bolder;
+
 align-items: center;
 justify-content: flex-start;
 line-height: 27.2px;
 color:rgb(18, 212, 18);
-padding-left: 30px;
+padding-left: 40px;
+}
+
+.elementor-icon-list-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.snabBusiness-text{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* font-size: 10px; */
+        line-height: 1.3rem;
+        padding: 10px 60px;
+        text-align: left;
+        column-width: 3;
 }
